@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>木子先森</title>
+	</head>
+	<body>
+		<!--
+        	作者：李松阳
+        	时间：2019-04-18
+        	描述：在style元素中创建red-text、smaller-image、thick-black-border类、css选择器
+        -->
+		<style>
+		.red-text{
+			color: red;
+		}
+		.smaller-image{
+			width: 1750px;
+			height:200px;
+		}
+		.thick-black-border{
+			border-color: cornflowerblue;
+			border-width:10px ;
+			border-style:dotted ;
+		
+			
+		}
+
+		p1{
+			font-family: "仿宋";
+			font-size: 40px;
+		}
+		p{
+			font-family: "微软雅黑";
+			font-size: 50px;
+		}
+		</style>
+		<!--
+        	作者：offline
+        	时间：2019-04-1840
+        	描述：给图片加上超链接、添加alt属性
+        -->
+		<a href="https://daohang.qq.com/?fr=hmpage">
+	<img class="smaller-image thick-black-border" src="timg.jpg" alt="图片加载失败!"></a>
+	<!--给网页加入音乐
+	-->
+	<audio src="薛之谦 - 像风一样.mp3" autoplay="autoplay" controls=" controls">音乐加载失败</audio><br/>
+	<!--
+    	作者：offline
+    	时间：2019-04-19
+    	描述：让音频的媒体类型进行可选择
+    <audio controls="controls">
+    	<source audio="薛之谦 - 像风一样.mp3" type="audio/mp3">
+    		</audio	>
+    -->
+
+	<!--
+    	作者：offline
+    	时间：2019-04-19
+    	描述：给网页加入视频
+    -->
+	<video src="我的视频.mp4" controls="controls" muted="muted" width="300" height="300" poster="./1.jpeg">视频加载失败</video>
+	
+	
+	<!--
+    	作者：offline
+    	时间：2019-04-18
+    	描述：给网页添加背景颜色、标题居中
+    -->
+	<body bgcolor="aliceblue">
+	<h1 class="red-text" align="center">我是木子先森，这是我第一个网页！！<hr/></h1>
+	<p>说点什么呢</p>
+	<p1>说说我的hdhg</p1>
+	<!--
+    	作者：offline
+    	时间：2019-04-19
+    	描述：无序列表
+    -->
+	<ul>
+		<li class="red-text" >什么是hdhg</li>
+		<li>为啥叫hdhg</li>
+	</ul>
+	<!--
+    	作者：offline
+    	时间：2019-04-19
+    	描述：有序列表
+    -->
+    <ol>
+    	<li type="I">hdhg就是刺猬</li>
+    	<li type="I">因为刺猬会扎人</li>
+    </ol>
+    <!--
+    	作者：offline
+    	时间：2019-04-19
+    	描述：定义列表
+    -->
+    <dl>
+    	<dt>奥特曼</dt>
+    	<dd>日本的</dd>
+    	<dt>奥特曼</dt>
+    	<dd>喜欢打怪兽,不信可以点右边按钮   <a href="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1555665208190&di=82f006b7599d47dd3d2ff5fd93175398&imgtype=0&src=http%3A%2F%2Fhongdoufan.com%2Fwp-content%2Fuploads%2F2018%2F03%2Ffff-1.png"><button type="button" >打我</button></a></dl>
+    
+	</body>
+</html>
